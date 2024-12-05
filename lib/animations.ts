@@ -49,9 +49,10 @@ export function initAnimations() {
   );
 
   // Section title animations
-  gsap.utils.toArray('.gsap-section-title').forEach((title: any) => {
+  gsap.utils.toArray('.gsap-section-title').forEach((title) => {
+    const element = title as HTMLElement;
     gsap.fromTo(
-      title,
+      element,
       {
         opacity: 0,
         y: 50,
@@ -61,7 +62,7 @@ export function initAnimations() {
         y: 0,
         duration: 0.8,
         scrollTrigger: {
-          trigger: title,
+          trigger: element,
           start: 'top 100%',
         },
       }
@@ -139,9 +140,10 @@ export function initAnimations() {
   );
 
   // Classes animations
-  gsap.utils.toArray('.gsap-class-card').forEach((card: any, index: number) => {
+  gsap.utils.toArray('.gsap-class-card').forEach((card, index: number) => {
+    const element = card as HTMLElement;
     gsap.fromTo(
-      card,
+      element,
       {
         opacity: 0,
         y: 50,
@@ -152,7 +154,7 @@ export function initAnimations() {
         duration: 0.8,
         delay: index * 0.2,
         scrollTrigger: {
-          trigger: card,
+          trigger: element,
           start: 'top 80%',
         },
       }
@@ -160,27 +162,26 @@ export function initAnimations() {
   });
 
   // Trainers animations
-  gsap.utils
-    .toArray('.gsap-trainer-card')
-    .forEach((card: any, index: number) => {
-      gsap.fromTo(
-        card,
-        {
-          opacity: 0,
-          y: 50,
+  gsap.utils.toArray('.gsap-trainer-card').forEach((card, index: number) => {
+    const element = card as HTMLElement;
+    gsap.fromTo(
+      element,
+      {
+        opacity: 0,
+        y: 50,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        delay: index * 0.2,
+        scrollTrigger: {
+          trigger: element,
+          start: 'top 80%',
         },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.8,
-          delay: index * 0.2,
-          scrollTrigger: {
-            trigger: card,
-            start: 'top 80%',
-          },
-        }
-      );
-    });
+      }
+    );
+  });
 
   // Schedule animation
   gsap.fromTo(

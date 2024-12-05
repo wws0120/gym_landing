@@ -21,7 +21,7 @@ export default function About() {
               fitness and combat sports goals.
             </p>
             <p className="text-lg">
-              Whether you're a beginner looking to get in shape or an
+              Whether you&apos;re a beginner looking to get in shape or an
               experienced fighter aiming to sharpen your skills, we have the
               programs and support you need to succeed.
             </p>
@@ -30,15 +30,15 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center my-6">
           <div className="gsap-about-content">
             <p className="text-lg mb-6">
-              At Elite Combat Fitness, we bring together the best of Boxing,
-              Muay Thai, and MMA under one roof. Our state-of-the-art facility
-              and expert trainers are dedicated to helping you achieve your
-              fitness and combat sports goals.
+              At Elite Combat Fitness, we don&apos;t just train fighters, we
+              build a community of warriors. From beginners seeking to break a
+              sweat to seasoned athletes honing their craft, our doors are open
+              to all who dare to challenge themselves.
             </p>
             <p className="text-lg">
-              Whether you're a beginner looking to get in shape or an
-              experienced fighter aiming to sharpen your skills, we have the
-              programs and support you need to succeed.
+              Are you ready to transform your body, sharpen your mind, and
+              elevate your spirit? Join us at Elite Combat Fitness - Where
+              Champions Rise and Legends Are Born!
             </p>
           </div>
           <div className="gsap-about-image">

@@ -1,12 +1,7 @@
 'use client';
 
 import { MdLocationOn, MdPhone, MdEmail } from 'react-icons/md';
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-} from 'react-icons/fa';
+import { FaTwitter, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 export default function Contact() {
   return (

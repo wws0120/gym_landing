@@ -34,8 +34,8 @@ const WelcomeSection = () => {
               </h2>
               <div>
                 <p className="text-gray-400 mb-8">
-                  Whether you're stepping into the ring for the first time or
-                  preparing for your next professional bout, Elite Combat
+                  Whether you&apos;re stepping into the ring for the first time
+                  or preparing for your next professional bout, Elite Combat
                   Fitness is your path to mastery. Our state-of-the-art facility
                   offers comprehensive training programs for all skill levels,
                   from beginners to professional athletes.
@@ -44,8 +44,8 @@ const WelcomeSection = () => {
                   Our experienced coaches are dedicated to developing both your
                   technical skills and mental fortitude, ensuring you reach your
                   full potential in combat sports. Join our community of
-                  warriors and transform yourself into the fighter you've always
-                  wanted to be.
+                  warriors and transform yourself into the fighter you&apos;ve
+                  always wanted to be.
                 </p>
                 <p className="text-gray-200 text-xl mb-8">
                   Train Like a Champion. Fight Like a Warrior.
