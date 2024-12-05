@@ -117,9 +117,9 @@ const ClassSchedule = () => {
 
     // Cleanup
     return () => window.removeEventListener('resize', updateDays);
-  }, [currentGroup]);
+  }, [currentGroup, screenWidth]);
 
-  const navigate = (direction: any) => {
+  const navigate = (direction: 'next' | 'prev') => {
     if (window.innerWidth < 768) {
       // mobile
       const maxGroups = dayGroups.mobile.length;
